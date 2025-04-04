@@ -8,8 +8,8 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 </p>
 
 - It introduces a two-step process:
-  1. *Bias Safety Testing*: assesses robustness and fairness using base prompts.
-  2. *Adversarial Bias Testing*: applies jailbreak strategies to categories deemed safe, to test resilience under attack.
+  1. **Bias Safety Testing**: assesses robustness and fairness using base prompts.
+  2. **Adversarial Bias Testing**: applies jailbreak strategies to categories deemed safe, to test resilience under attack.
 - Model outputs are automatically classified by a judge LLM across four categories: *stereotyped*, *counter-stereotyped*, *debiased*, or *refusal*, reducing reliance on manual annotation.
 - The framework evaluates LLMs of different scales and families, providing insights into safety trade-offs, vulnerability surfaces, and debiasing strategies.
 
