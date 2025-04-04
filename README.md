@@ -15,8 +15,8 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 
 ## CLEAR-Bias
 - We introduce **CLEAR-Bias (Corpus for Linguistic Evaluation of Adversarial Robustness against Bias)**, a curated dataset of 4,400 prompts spanning:
-  - 7 bias dimensions: *age*, *disability*, *ethnicity*, *gender*, *religion*, *sexual orientation*, and *socioeconomic status*.
-  - 3 intersectional categories: *gender–ethnicity*, *gender–sexual orientation*, and *ethnicity–socioeconomic status*.
+  - 7 *isolated* bias categories: *age*, *disability*, *ethnicity*, *gender*, *religion*, *sexual orientation*, and *socioeconomic status*.
+  - 3 *intersectional* bias categories: *gender–ethnicity*, *gender–sexual orientation*, and *ethnicity–socioeconomic status*.
   - 2 task types: *choose the option (CTO)* and *sentence completion (SC)*.
   - 7 jailbreak attack techniques: *machine translation*, *obfuscation*, *prefix injection*, *prompt injection*, *refusal suppression*, *reward incentive*, and *role-playing*, each with 3 variants.
 
