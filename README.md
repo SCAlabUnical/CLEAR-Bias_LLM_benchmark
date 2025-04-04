@@ -2,6 +2,8 @@
 
 ## How it works
 We propose a scalable, automated benchmarking framework for evaluating sociocultural bias vulnerabilities in Large Language Models (LLMs), leveraging the **LLM-as-a-Judge** approach.
+![workflow](fig/methodology.png)
+
 - It introduces a two-step process:
   1. *Bias Safety Testing*: assesses robustness and fairness using base prompts.
   2. *Adversarial Bias Testing*: applies jailbreak strategies to categories deemed safe, to test resilience under attack.
