@@ -12,7 +12,7 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
   2. **Adversarial Bias Testing**: applies jailbreak strategies to categories deemed safe, to test resilience under attack.
 - Model outputs are automatically classified by a judge LLM across four categories: *stereotyped*, *counter-stereotyped*, *debiased*, or *refusal*, reducing reliance on manual annotation.
 - The framework evaluates LLMs of different scales and families, providing insights into safety trade-offs, vulnerability surfaces, and debiasing strategies.
-
+> The benchmark is **modular and reproducible**, enabling controlled bias elicitation experiments and rigorous safety evaluations across LLM families, fostering the development of more robust and socially responsible language models.
 ## CLEAR-Bias
 - We introduce **CLEAR-Bias (Corpus for Linguistic Evaluation of Adversarial Robustness against Bias)**, a curated dataset of 4,400 prompts spanning:
   - 7 *isolated* bias categories: *age*, *disability*, *ethnicity*, *gender*, *religion*, *sexual orientation*, and *socioeconomic status*.
@@ -29,8 +29,6 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 - Larger models do not always guarantee higher safety; some small-scale models outperform larger ones in robustness and fairness.
 - Jailbreak attacks remain effective against a wide range of models. Techniques like machine translation, obfuscation, and refusal suppression are particularly potent.
 - Medical domain LLMs tend to show lower bias safety, highlighting risks in domain-specific fine-tuning.
-
-> The benchmark is **modular and reproducible**, enabling controlled bias elicitation experiments and rigorous safety evaluations across LLM families, fostering the development of more robust and socially responsible language models.
 
 ## How to cite
 *Preprint coming soon.*
