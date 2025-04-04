@@ -14,7 +14,7 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 - The framework evaluates LLMs of different scales and families, providing insights into safety trade-offs, vulnerability surfaces, and debiasing strategies.
 
 ## CLEAR-Bias
-- The framework introduces **CLEAR-Bias (Corpus for Linguistic Evaluation of Adversarial Robustness against Bias)**, a curated dataset of 4,400 prompts spanning:
+- We introduce **CLEAR-Bias (Corpus for Linguistic Evaluation of Adversarial Robustness against Bias)**, a curated dataset of 4,400 prompts spanning:
   - 7 bias dimensions: *age*, *disability*, *ethnicity*, *gender*, *religion*, *sexual orientation*, and *socioeconomic status*.
   - 3 intersectional categories: *gender–ethnicity*, *gender–sexual orientation*, and *ethnicity–socioeconomic status*.
   - 2 task types: *Choose the option (CTO)* and *sentence completion (SC)*.
