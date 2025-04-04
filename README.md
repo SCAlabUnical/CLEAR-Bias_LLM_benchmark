@@ -27,7 +27,7 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 ## Key findings
 - Bias robustness is not uniform: models are more resilient to some categories (e.g., religion) but more vulnerable to others (e.g., age).
 - Larger models do not always guarantee higher safety; some small-scale models outperform larger ones in robustness and fairness.
-- Jailbreak attacks remain effective against all tested models. Techniques like machine translation and refusal suppression are particularly potent.
+- Jailbreak attacks remain effective against a wide range of models. Techniques like machine translation, obfuscation, and refusal suppression are particularly potent.
 - Medical domain LLMs tend to show lower bias safety, highlighting risks in domain-specific fine-tuning.
 
 > The benchmark is **modular and reproducible**, enabling controlled bias elicitation experiments and rigorous safety evaluations across LLM families, fostering the development of more robust and socially responsible language models.
