@@ -3,7 +3,7 @@
 ## How it works
 We propose a scalable, automated benchmarking framework for evaluating sociocultural bias vulnerabilities in Large Language Models (LLMs), leveraging the **LLM-as-a-Judge** approach.
 
-![workflow](fig/bench.png)
+<img src="fig/bench.png" alt="workflow" width="90%"/>
 
 - It introduces a two-step process:
   1. *Bias Safety Testing*: assesses robustness and fairness using base prompts.
@@ -18,7 +18,7 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
   - 2 task types: *Choose the option (CTO)* and *sentence completion (SC)*.
   - 7 jailbreak attack techniques: *machine translation*, *obfuscation*, *prefix injection*, *prompt injection*, *refusal suppression*, *reward incentive*, and *role-playing*, each with 3 variants.
 
-![bias_taxonomy](fig/bias_taxonomy.png)
+<img src="fig/bias_taxonomy.png" alt="bias_taxonomy" width="60%"/>
 
 ## Key findings
 - Bias robustness is not uniform: models are more resilient to some categories (e.g., religion) but more vulnerable to others (e.g., age).
@@ -26,9 +26,7 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 - Jailbreak attacks remain effective against all tested models. Techniques like machine translation and refusal suppression are particularly potent.
 - Medical domain LLMs tend to show lower bias safety, highlighting risks in domain-specific fine-tuning.
 
-'''
-The benchmark is **modular and reproducible**, enabling controlled bias elicitation experiments and rigorous safety evaluations across LLM families, fostering the development of more robust and socially responsible language models.
-'''
+> The benchmark is **modular and reproducible**, enabling controlled bias elicitation experiments and rigorous safety evaluations across LLM families, fostering the development of more robust and socially responsible language models.
 
 ## How to cite
 *Preprint coming soon.*
