@@ -21,7 +21,8 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
   - 3 *intersectional* bias categories: *gender–ethnicity*, *gender–sexual orientation*, and *ethnicity–socioeconomic status*.
   - 2 task types: *choose the option (CTO)* and *sentence completion (SC)*.
   - 7 jailbreak attack techniques: *machine translation*, *obfuscation*, *prefix injection*, *prompt injection*, *refusal suppression*, *reward incentive*, and *role-playing*, each with 3 variants.
-
+- We have publicly released **CLEAR-Bias** on [HuggingFace](https://huggingface.co/datasets/RCantini/CLEAR-Bias)
+  
 <p align="center">
 <img src="fig/bias_taxonomy.png" alt="bias_taxonomy" width="70%"/>
 </p>
