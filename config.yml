@@ -1,0 +1,3 @@
+DEEPBRICKS_API_KEY: "{your_deepbricks_api_key}"
+DEEPSEEK_API_KEY: "{your_deepseek_api_key}"
+GEMINI_API_KEY: "{your_gemini_api_key}"
