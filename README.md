@@ -37,7 +37,7 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 *Preprint coming soon.*
 
 ## Reproducibility
-### Data & code availability
+### Code & Data availability
 - This repository includes the full codebase, containing Jupyter Notebooks to replicate all evaluations, scoring, and adversarial tests.
 - The **CLEAR-Bias** dataset is publicly available on [HuggingFace](https://huggingface.co/datasets/RCantini/CLEAR-Bias).
 ### Model usage
