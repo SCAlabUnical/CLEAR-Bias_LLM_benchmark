@@ -52,6 +52,6 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
      ```bash
      ollama start
      ```
-- **Large Language Models** (LLMs) (e.g., Llama 3.1 405B, GPT-4o, Claude-3.5-Sonnet) can be used with API services compliant with the OpenAI Python library.
+- **Large Language Models** (LLMs) (e.g., Llama 3.1 405B, GPT-4o, Claude-3.5-Sonnet) can be used with API services compliant with the OpenAI Python library. API keys can be specified in the *config.yaml* file.
 - **Medical Language Models** (e.g., Bio-Medical-Llama-3-8B, Med42-v2, Llama-3.1-8B-UltraMedical) can be downloaded from HuggingFace and run locally (8-bit quantized).
 
