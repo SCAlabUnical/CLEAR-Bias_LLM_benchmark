@@ -37,19 +37,21 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 *Preprint coming soon.*
 
 ## Reproducibility
-This repository includes:
-- Full codebase (Jupyter Notebooks).
-- Scripts to replicate all evaluations, scoring, and adversarial tests.
-  - Small Language Models (SMLs) (e.g., Phi4, Gemma2) can be used with the Ollama service, a model-serving platform used for running language models locally. To use Ollama locally, follow these steps:
-    1. **Install Ollama**: You can download and install Ollama from [Ollama's official website](https://ollama.com/download).
-    2. **Start the Ollama service**: Open a terminal and run the following command to start the Ollama service:
-       ```bash
-       ollama serve
-       ```
-    3. **Run Ollama**: Once the service is running, you can use the following command to interact with the models:
-       ```bash
-       ollama start
-       ```
-  - Large Language Models (LLMs) (e.g., Llama 3.1 405B, GPT-4o, Claude-3.5-Sonnet) can be used with API services compliant with the OpenAI Python library.
-  - Medical LLMs (e.g., Bio-Medical-Llama-3-8B, Med42-v2, Llama-3.1-8B-UltraMedical) can be downloaded from HuggingFace and run locally (8-bit quantized).
+### Data & code availability
+- This repository includes the full codebase, containing Jupyter Notebooks to replicate all evaluations, scoring, and adversarial tests.
 - The **CLEAR-Bias** dataset is publicly available on [HuggingFace](https://huggingface.co/datasets/RCantini/CLEAR-Bias).
+### Model usage
+- **Small Language Models** (SMLs) (e.g., Phi4, Gemma2 2B, Gemma2 27B) can be used with the Ollama service, a model-serving platform used for running quantized LMs locally.
+  To use Ollama, follow these steps:
+  1. *Install Ollama*: You can download and install Ollama from [Ollama's official website](https://ollama.com/download).
+  2. *Start the Ollama service*: Open a terminal and run the following command to start the Ollama service:
+     ```bash
+     ollama serve
+     ```
+  3. *Run Ollama*: Once the service is running, you can use the following command to interact with the models:
+     ```bash
+     ollama start
+     ```
+- **Large Language Models** (LLMs) (e.g., Llama 3.1 405B, GPT-4o, Claude-3.5-Sonnet) can be used with API services compliant with the OpenAI Python library.
+- **Medical Language Models** (e.g., Bio-Medical-Llama-3-8B, Med42-v2, Llama-3.1-8B-UltraMedical) can be downloaded from HuggingFace and run locally (8-bit quantized).
+
