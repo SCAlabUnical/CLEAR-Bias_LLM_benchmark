@@ -34,7 +34,7 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 - Medical domain LLMs tend to show lower bias safety, highlighting risks in domain-specific fine-tuning.
 
 ## How to cite
-*Preprint coming soon.*
+Cantini, R, Orsino, A, Ruggiero, M, Talia, D, "Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge". arXiv preprint [arXiv:2504.07887](https://doi.org/10.48550/arXiv.2504.07887) (2025).
 
 ## Reproducibility
 ### Code & Data availability
