@@ -24,7 +24,7 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 - We have publicly released **CLEAR-Bias** on [HuggingFace](https://huggingface.co/datasets/RCantini/CLEAR-Bias).
   
 <p align="center">
-<img src="fig/bias_taxonomy.png" alt="bias_taxonomy" width="70%"/>
+<img src="fig/tax_with_logo.png" alt="bias_taxonomy" width="70%"/>
 </p>
 
 ## Key findings
