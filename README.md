@@ -56,4 +56,4 @@ Cantini, R, Orsino, A, Ruggiero, M, Talia, D, "Benchmarking Adversarial Robustne
 - **Medical Language Models** (e.g., Bio-Medical-Llama-3-8B, Med42-v2, Llama-3.1-8B-UltraMedical) can be downloaded from HuggingFace and run locally (8-bit quantized).
 
 ## Acknowledgements
-This work has been supported by the "FAIR – Future Artificial Intelligence Research" project - CUP H23C22000860006.
+This work has been supported by the "*FAIR – Future Artificial Intelligence Research*" project - CUP H23C22000860006.
