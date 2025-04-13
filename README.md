@@ -35,6 +35,14 @@ We propose a scalable, automated benchmarking framework for evaluating sociocult
 
 ## How to cite
 Cantini, R, Orsino, A, Ruggiero, M, Talia, D, "Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge". arXiv preprint [arXiv:2504.07887](https://doi.org/10.48550/arXiv.2504.07887) (2025).
+**BibTeX:**
+```bibtex
+@article{cantini2025benchmarking,
+  title={Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models: Scalable Automated Assessment with LLM-as-a-Judge},
+  author={Cantini, Riccardo and Orsino, Alessio and Ruggiero, Massimo and Talia, Domenico},
+  journal={arXiv preprint arXiv:2504.07887},
+  year={2025}
+}
 
 ## Reproducibility
 ### Code & Data availability
